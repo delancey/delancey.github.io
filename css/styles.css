@@ -46,7 +46,7 @@ a:hover {
 
 .navigation{
   height: 100px;
-  background-color: #f04c00;
+  background-color: #ff8c00;
 }
 
 .navbar-header p{
@@ -102,6 +102,7 @@ align-content: center
   height: 60px;
   width: 250px;
   text-align: center;
+    margin-bottom: 2.5em;    
 }
 
 .project-details h5{
