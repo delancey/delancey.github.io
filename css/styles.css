@@ -62,7 +62,7 @@ a:hover {
   text-align: center;
 }
 
-.opening h1, h5{color: #f04c00;
+.opening h1, h5{color: #626366;
 }
 
 .opening h3{ color: #494949;}
@@ -109,28 +109,36 @@ align-content: center
 }
 /*end gallery styling*/
 
-
-
-/*details page styling*/
-.project-separation{
-  margin-bottom: 500em;
-}
-
-.projects q{
+/*
+.projects {
   text-align: center;
 }
-
+*/
 .projects{
-  margin-bottom: .75em;
+  margin-bottom: 6em;
 }
 .project-details h4, h5{
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .divider {
   margin-top:32px;
 }
-/*end details page styling*/
+
+.logo{
+  text-align: center;
+}
+
+.description{
+  font-size: 1.2em;
+  font-family: 'playfair display', 'open sans';
+  text-align: center;
+}
+
+.blurb > p,h4{
+  text-align: center;
+}
+/*end project page styling*/
 
 
 /*web design styling*/
@@ -143,7 +151,7 @@ align-content: center
 /* bootstrap overrides */
 .page-header {
   margin-top: 55px;
-  padding-top: 9px;
+  padding-top: 13px;
   border-top:1px solid #eeeeee;
   font-weight:700;
   text-transform:uppercase;
