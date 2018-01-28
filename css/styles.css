@@ -1,3 +1,24 @@
+/* bootstrap overrides */
+.page-header {
+  margin-top: 55px;
+  padding-top: 13px;
+  border-top:1px solid #eeeeee;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  }
+}
+
+.col-sm-9.full {
+  width: 100%;
+}
+
+.h3, h3{
+  font-size: 1.35em;
+  padding-top: 1.2em;
+}
+/* bootstrap override*/
+
 /*  global styling */
 
 h1, h2, h3, h4, h5, h6, {
@@ -5,7 +26,7 @@ h1, h2, h3, h4, h5, h6, {
 }
 
 h1, h3, h4, h5{ font-family: 'Playfair Display', serif;}
- p{ font-family: 'Open Sans', sans-serif;}
+p{ font-family: 'Open Sans', sans-serif;}
 
 body {
   height: 100%;
@@ -31,7 +52,7 @@ body {
 }
 
 a {
-  color: #494949;
+  color: orange;
 }
 a:hover {
   text-decoration: none;
@@ -49,8 +70,15 @@ a:hover {
   background-color: #fAA460;
 }
 
-.navbar-header p{
-  text-align: center;
+.navbar-header{
+ margin: auto;
+}
+
+.name img{
+ display:block;
+  padding-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* end global styling */
 
@@ -87,6 +115,7 @@ a:hover {
   height: 250px;
   width: 250px;
   object-fit: contain;
+  margin: auto;
 }
 
 .portfolio-item a {
@@ -97,27 +126,48 @@ align-content: center
   height: 60px;
   text-align: center;
   width: 250px;
+  margin: auto;
 }
 .portfolio-item p{
   height: 60px;
   width: 250px;
   text-align: center;
+  margin:auto;
 }
 
-.project-details h5{
-  color: #494949;
+.project-detail img{
+  
+  object-fit: contain;
+  margin: auto;
 }
-/*end gallery styling*/
 
-/*
-.projects {
+.project-detail a {
+align-content: center
+}
+
+.project-detail h3{
+  height: 40px;
   text-align: center;
+  width: 250px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  
 }
-*/
-.projects{
-  margin-bottom: 6em;
+.project-detail p{
+  height: 40px;
+  width: 250px;
+  text-align: center;
+  margin:auto;
+  margin-bottom: 3em;
 }
-.project-details h4, h5{
+
+.contain{
+  padding-bottom: 3em;
+}
+.project-detail h4, h5{
   margin-top: 3em;
 }
 
@@ -131,34 +181,18 @@ align-content: center
 
 .description{
   font-size: 1.2em;
-  font-family: 'playfair display', 'open sans';
+  font-family: 'Playfair Display', 'Open Sans';
   text-align: center;
+   
 }
 
-.blurb > p,h4{
+.contain > p,h4{
   text-align: center;
+  margin: auto;
 }
 /*end project page styling*/
 
 
-/*web design styling*/
-.web-image {
-  margin-bottom: 25px;
-}
-/*end web design styling*/
 
 
-/* bootstrap overrides */
-.page-header {
-  margin-top: 55px;
-  padding-top: 13px;
-  border-top:1px solid #eeeeee;
-  font-weight:700;
-  text-transform:uppercase;
-  letter-spacing:2px;
-}
 
-.col-sm-9.full {
-  width: 100%;
-}
-/*Contact form ending*/
