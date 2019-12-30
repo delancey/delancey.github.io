@@ -4,9 +4,9 @@
   padding-top: 13px;
   border-top:1px solid #eeeeee;
   font-weight:700;
-  text-transform:uppercase;
+  /*text-transform:uppercase;*/
   letter-spacing:2px;
-  }
+  }  
 }
 
 .col-sm-9.full {
@@ -15,22 +15,22 @@
 
 .h3, h3{
   font-size: 1.35em;
-  padding-top: 1.2em;
 }
 /* bootstrap override*/
 
 /*  global styling */
 
+
 h1, h2, h3, h4, h5, h6, {
   color: #494949;
 }
 
-h1, h3, h4, h5{ font-family: 'Playfair Display', serif;}
-p{ font-family: 'Open Sans', sans-serif;}
+h1, h3, h4, h5{ font-family: 'Inria Serif', 'Goudy Old Style', serif;}
+p{ font-family: 'krub', helvetica, sans-serif;}
 
 body {
   height: 100%;
-  background-color: #FCFCFC
+  background-color: #FCFCFC;
    }
 
 .wrap{
@@ -38,17 +38,30 @@ body {
   margin: 0 auto -90px;
 }
 
+.container{
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  
+ 
+}
+
+
 .footer, .push {
  height: 50px;
 }
-
+.push p{
+  text-align: center;
+}
 .footer p{
   color: navy;
   text-align: center;
 }
 
-.column .padding {
-    padding: 20px;
+.padding {
+    padding: 0 20px 20px 20px;
 }
 
 a {
@@ -58,14 +71,7 @@ a:hover {
   text-decoration: none;
 }
 
-.separator {
-  margin-top:px;
-  width: 50px;
-  height:25px;
-}
-
-
-.navigation{
+.header{
   height: 100px;
   background-color: #fAA460;
 }
@@ -80,37 +86,33 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-/* end global styling */
 
 
-/*index- home page styling*/
-.opening {
-  margin-top: 20%;
- position: relative;
-  text-align: center;
+.project-nav{
+  display: flex;
+  justify-content:space-between;
+  height: 1.7em;
+  padding-top: .5em;
+
 }
-
-.opening h1, h5{color: #626366;
-}
-
-.opening h3{ color: #494949;}
-.view {
-  margin-top: 2em;
-  text-align: center;
-}
-
-.btn-xs{
-  border: none;
-  color: #f04c00;
-}
-/*end home page styling*/
 
 #footer {
   background-color:#fefefe;}
-/* end common page elements */
+
+.push{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-top: 2em;
+  border-top: 1px solid #eee;
+}
+/* end global styling */
+
 
 
 /*gallery styling*/
+
 .portfolio-item img{
   height: 250px;
   width: 250px;
@@ -127,6 +129,7 @@ align-content: center
   text-align: center;
   width: 250px;
   margin: auto;
+  padding-top: 1.2em;
 }
 .portfolio-item p{
   height: 60px;
@@ -135,14 +138,15 @@ align-content: center
   margin:auto;
 }
 
+
 .project-detail img{
   
-  object-fit: contain;
+  object-fit:cover;
   margin: auto;
 }
 
 .project-detail a {
-align-content: center
+align-content: center;
 }
 
 .project-detail h3{
@@ -165,7 +169,8 @@ align-content: center
 }
 
 .contain{
-  padding-bottom: 3em;
+  padding-bottom: 4em;
+ 
 }
 .project-detail h4, h5{
   margin-top: 3em;
