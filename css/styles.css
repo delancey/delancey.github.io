@@ -200,19 +200,18 @@ align-content: center;
 
 
 
-.cover {
-  height: auto
-  width: 100%;
-}
+/*Cookbook*/
 
 .wdcover {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 85%;
   height: auto;
 }
 
 .booktext {
+display: block;
+margin: 0 auto;
   text-align: center;
 
 }
@@ -220,13 +219,26 @@ align-content: center;
 .physicalbook {
   display: block;
   text-align: center;
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 
-@media only screen and (max-width: 400px) {
-  .physicalbook{
-    width: 250px;
+@media only screen and (max-width: 375px) {
+
+ 
+  .physicalbook {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
     height: auto;
   }
+  
+  .booktext{
+    padding-top:15px;
+  }
+  .wdcover {
+  height: auto;
+  width: 75%;
+}
+ 
 }
