@@ -216,6 +216,7 @@ margin: 0 auto;
 }
 
 .physicalbook {
+  display: block;
   text-align: center;
     margin-top: 50px;
 }
