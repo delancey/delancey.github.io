@@ -212,5 +212,10 @@ margin: 0 auto;
 
 .booktext {
   text-align: center;
-  margin-top: 50px;
+
+}
+
+.physicalbook {
+  text-align: center;
+    margin-top: 50px;
 }
