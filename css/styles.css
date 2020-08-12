@@ -200,4 +200,17 @@ align-content: center;
 
 
 
+.cover {
+  height: 300px;
+  width: auto;
+}
 
+.wdcover {
+  display: block;
+margin: 0 auto;
+}
+
+.booktext {
+  text-align: center;
+  margin-top: 50px;
+}
